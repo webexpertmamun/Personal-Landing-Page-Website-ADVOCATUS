@@ -1,0 +1,1327 @@
+/*
+Auther: Mehedi Hasa Mamun
+Email: mehedihasanmamun132@gmail.com
+*/
+
+/*======Global CSS Section=======*/
+
+/*	=====index==========
+	1.Global css
+	2.Nav bar
+	3.Hero
+	4.About us
+	5.practicearea
+	6.lawyers
+	7.publication
+	8.faq
+	9.contact
+	10.footer
+
+*/
+
+
+
+
+
+/*google fonts*/
+	@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500,700,900');
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:100,400,500,700,900');
+/*google fonts*/
+
+/*Global css*/
+.black-nav{
+	color: #e8bf5d !important;
+}
+body{
+	box-sizing: border-box;
+}
+section{
+	padding-top: 20px; 
+
+}
+
+h1{
+	font-size: 35px ;
+	font-weight: 500;
+	color: #111111;
+}
+
+h2{
+    font-size: 35px !important;
+    font-weight: 500;
+    color: #111111;
+}
+h4{
+	font-weight: 500 !important;
+}
+
+p{
+	font-size: 16px;
+    color: #111111;
+   	line-height: 1.7em;
+}
+
+a{
+	font-size: 14px;
+	text-decoration: none;
+	letter-spacing: 1.2px;
+	font-weight: 500;
+	border-bottom: 3px solid #ffffff;
+}
+
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+/*Global css*/
+
+/*nav bar */
+
+.navbar{
+	padding: 18px 0px;
+	display: block;
+	position: fixed;
+	width: 100%;
+	z-index: 1020;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e8bf5d;
+}
+nav ul li{
+	
+}
+nav ul li a{
+    color: #111111 !important;
+    margin-right: 10px;
+    transition: all ease .5s;
+
+    text-transform: uppercase;
+    font-size: 13px;
+  
+	
+}
+nav ul li{
+	padding-bottom: 3px;
+
+}
+
+
+nav ul li a:hover{
+    color: #111111;
+    border-bottom: 3px solid #e8bf5d;
+    transition: all ease .5s;
+}
+.extra{
+	height: 65px;
+	padding: 0px !important;
+}
+/*Hero seaction start*/
+.hero{
+	background: url('../images/herobanner.png')no-repeat center top;
+    background-size: cover;
+}
+
+.hero-row{
+	padding: 514px 0px 0px 0px;
+}
+.hero-title h1{
+    font-size: 54px;
+    font-weight: 500;
+    letter-spacing: 4.5px;
+    color: #ffffff;
+}
+.hero-title{
+	border-left: 2px solid #e8bf5d;
+	padding-left:8px;
+	padding-bottom: 3px;
+}
+.hero-title h4{
+	font-size: 25px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+}
+
+.hero-btn{
+	padding: 30px 0px 0px 0px;
+}
+.hero-btn button{
+	border: none;
+    padding: 10px 42px;
+    border-radius: 30px;
+    background-color: #e8bf5d;
+    cursor: pointer;
+    transition: 0.5s all ease;
+ }
+
+ .hero-btn button:hover{
+    box-shadow: 0px 0px 29px #987e1d !important;
+    background-color: #bf8d28 !important;
+ }
+/*Hero seaction end*/
+
+/*about seaction start*/
+.about-info h1{
+    font-size: 180px;
+    color: #F3F3F3;
+    padding-left: 4px;
+    font-weight: 400;
+}
+
+.about-info{
+	position: relative;
+	width: 52%;
+
+}
+.about-position{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 28px;
+}
+.about-position h2{
+	font-size: 30px;
+    font-weight: 500;
+    color: #111111;
+    margin-top: 4px;
+}
+
+.about-row-two{
+	padding: 15px 0px;
+}
+
+.history-heading{
+	padding: 20px 0px;
+}
+.year{
+	padding-top: 10px;
+}.year-para{
+	padding-bottom: 20px;
+}
+/*about seaction end*/
+
+
+/*practice seaction start*/
+.practice{
+	background-color: #111111;
+}
+
+.practice-info h1{
+    font-size: 180px;
+    color: #1d1d1d;
+    padding-left: 4px;
+    font-weight: 400;
+}
+
+.practice-info{
+	position: relative;
+	width: 52%;
+
+
+}
+.practice-position{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 28px;
+
+}
+.practice-position h2{
+	font-size: 30px;
+    font-weight: 500;
+    color: #c1c1c1;
+    margin-top: 4px;
+}
+.practice-position p{
+	color: #c1c1c1;
+}
+
+
+.practice-two{
+	padding:10px 0px;
+}
+.practice-info-two h4{
+	color: #dbdbdb;
+	font-weight: 500;
+}
+.practice-info-two p{
+	color: #dbdbdb;
+	font-size: 16px;
+}
+
+.icon{
+	font-size: 40px;
+    color: #e8bf5d;
+
+}
+/*practice seaction end*/
+
+
+/*attorney seaction start*/
+.attorney-info h1{
+    font-size: 180px;
+    color: #F3F3F3;
+    padding-left: 4px;
+    font-weight: 400;
+}
+
+.attorney-info{
+	position: relative;
+	width: 52%;
+
+}
+.attorney-position{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 28px;
+}
+.attorney-position h2{
+	font-size: 30px;
+    font-weight: 500;
+    color: #111111;
+    margin-top: 4px;
+}
+.attorney-image{
+	padding: 10px;
+	width: 100%;
+}
+.attorney-details{
+	padding-top: 15px;
+	position: relative;
+	overflow: hidden;
+	transition: 0.5s all ease !important;
+}
+.attorney-container{
+	padding: 20px 25px;
+}
+.full{
+	cursor: pointer;
+}
+.just{
+	position: absolute;
+    top: -100px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    text-align: center !important;
+    color: #e8bf5d;
+    border: 2px solid #e8bf5d;
+}
+.just p{
+
+}
+.full:hover .just{
+	top: 0;
+	transition: 0.5s all ease !important;
+}
+.follow-icon {
+    font-size: 36px;
+    padding: 0px 5px;
+}
+.follow-icon:hover {
+    box-shadow: 0px 3px 5px #987E1E !important;
+    /* background-color: #5f5c56 !important; */
+}
+/*attorney seaction end*/
+
+
+/*clint seaction start*/
+.clint{
+	background: url('../images/clintbanner.png');
+	background-size: cover;
+}
+.clint-container{
+
+}
+.clint-info h1{
+    font-size: 180px;
+    color: #262626;
+    padding-left: 4px;
+    font-weight: 400;
+}
+
+.clint-info{
+	position: relative;
+	width: 52%;
+
+
+}
+.clint-position{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 28px;
+
+}
+.clint-position h2{
+	font-size: 30px;
+    font-weight: 500;
+    color: #c1c1c1;
+    margin-top: 4px;
+}
+.clint-position p{
+	color: #c1c1c1;
+}
+.clint-image img{
+	max-width: 100%;
+    height: auto;
+    box-shadow: 25px 26px 0px #e8bf5d;
+}
+.clint-details p,.clint-details h5{
+	color: #ffffff;
+}
+.clint-details{
+	position: relative;
+	padding-top: 30px;
+}
+.quote{
+    color: #535251;
+    font-size: 25px;
+    position: absolute;
+    left: -40px;
+}
+/*clint seaction end*/
+
+/*publications seaction start*/
+.publications-info h1{
+    font-size: 180px;
+    color: #F3F3F3;
+    padding-left: 4px;
+    font-weight: 400;
+}
+
+.publications-info{
+	position: relative;
+	width: 52%;
+
+}
+.publications-position{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 28px;
+}
+.publications-position h2{
+	font-size: 30px;
+    font-weight: 500;
+    color: #111111;
+    margin-top: 4px;
+}
+
+.pub-info{
+	display: flex;
+	justify-content: space-between;
+}
+.pub{
+	height: 100%;
+	width: 100%;
+}
+.pub-details{
+	border-bottom: 2px solid #e8bf5d;
+}
+.pub-details h5{
+	padding: 10px 0px;
+}
+.pub-info{
+	padding: 5px 0px;
+}
+/*publications seaction end*/
+
+
+/*FAQ seaction start*/
+.faq{
+	background-color: #111111;
+}
+
+.faq-info h1{
+    font-size: 180px;
+    color: #262626;
+    padding-left: 4px;
+    font-weight: 400;
+}
+
+.faq-info{
+	position: relative;
+	width: 52%;
+
+
+}
+.faq-position{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 28px;
+
+}
+.faq-position h2{
+	font-size: 30px;
+    font-weight: 500;
+    color: #c1c1c1;
+    margin-top: 4px;
+}
+.faq-position p{
+	color: #c1c1c1;
+}
+.faq-details p{
+	color: white;
+}
+
+.faq-line{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #e8bf5d;
+	padding-bottom: 0px;
+}
+.ic{
+	color: #ffffff;
+	font-size: 15px;
+}
+.faq-para{
+	background-color: #e8bf5d;
+    line-height: 26px;
+    height: 268px;
+    padding: 20px 60px;
+    box-shadow: 0px 0px 28px #e8bf5d;
+}
+/*FAQ seaction end*/
+
+/*contact seaction start*/
+.contact-info h1{
+    font-size: 180px;
+    color: #F3F3F3;
+    padding-left: 4px;
+    font-weight: 400;
+}
+
+.contact-info{
+	position: relative;
+	width: 52%;
+
+}
+.contact-position{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 28px;
+}
+.contact-position h2{
+	font-size: 30px;
+    font-weight: 500;
+    color: #111111;
+    margin-top: 4px;
+}
+.shadow{
+	box-shadow:0px 0px 50px #c3c1c1; 
+	padding: 100px 15px;
+}
+.contact-image img{
+	box-shadow:-25px 26px 0px #e8bf5d;
+	margin-left: 20px;
+}
+.from-input{
+	width: 90%;
+    margin: 0 auto;
+}
+.name{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+	padding: 10px;
+	padding-top: 20px;
+	font-style: italic;
+}
+.submit{
+	text-align: center;
+	padding-top: 20px;
+
+}
+.sub{
+	border: none;
+    padding: 10px 42px;
+    border-radius: 30px;
+    background-color: #e8bf5d;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+.sub:hover{
+		 box-shadow: 0px 0px 10px #987e1d !important;
+		  background-color: #bf8d28 !important;
+	    
+	}
+
+.fae{
+	padding: 0px 10px;
+	color: #ffffff;
+	font-size: 24px;
+	cursor: pointer;
+	transition: 0.3s all ease !important;
+}
+.fae:hover{
+	color: #e8bf5d;
+}
+/*contact seaction end*/
+
+@media screen and (max-width: 1200px){
+	.faq-para {
+	    background-color: #e8bf5d;
+	    line-height: 26px;
+	    height: 293px;
+	    padding: 4px 44px;
+	    box-shadow: 0px 0px 28px #e8bf5d;
+	}
+}
+
+@media screen and (max-width: 991px){
+
+	h2{
+		font-size: 30px !important;
+	}
+	p{
+		font-size: 16px;
+	    color: #111111;
+	    line-height: 20px;
+	    text-align: left;
+	}
+
+	.hero{
+	background: url('../images/herobanner.png')no-repeat center top;
+    background-size: cover;
+	}
+	.hero-container{
+	    position: relative;
+	    padding: 100px 0px 95px 0px;
+	}
+	.hero-row {
+	    padding: 0px 0px 0px 0px;
+	    position: absolute;
+	    top: 185px;
+	    display: flex !important;
+	    justify-content: space-between !important;
+	    width: inherit;
+	}
+	.hero-title h1{
+	    font-size: 30px;
+	    font-weight: 400;
+	    letter-spacing: 1.5px;
+	    color: #ffffff;
+	}
+	.hero-title{
+		border-left: 2px solid #e8bf5d;
+		padding-left:8px;
+		padding-bottom: 3px;
+	}
+	.hero-title h4{
+		font-size: 20px;
+	    color: #ffffff;
+	    letter-spacing: 0.7px;
+	}
+
+	.hero-btn{
+		padding: 10px 0px 0px 0px;
+	}
+	.hero-btn button{
+		border: none;
+	    padding: 9px 30px;
+	    border-radius: 30px;
+	    background-color: #e8bf5d;
+	    cursor: pointer;
+	    transition: 0.5s all ease;
+	 }
+
+	 .hero-btn button:hover{
+	    box-shadow: 0px 0px 29px #987e1d !important;
+	    background-color: #bf8d28 !important;
+	 }
+
+
+	.about-info{
+	position: relative;
+	width: 100%;
+	}
+	.about-info h1{
+		font-size: 170px;
+	    color: #F3F3F3;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.about-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.history-heading {
+    padding: 0 0px;
+	}
+
+
+
+	.practice-info{
+		position: relative;
+		width: 100%;
+	}
+
+	.practice-info h1{
+		font-size: 170px;
+	    color: #262626;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.practice-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.practice-two{
+		text-align: center !important;
+	}
+	.practice-info-two p{
+		text-align: center;
+	}
+
+	.attorney-info{
+		position: relative;
+		width: 100%;
+	}
+
+	.attorney-info h1{
+		font-size: 170px;
+	    color: #F3F3F3;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.attorney-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.attorney-details p,.attorney-details h5{
+		text-align: center;
+	}
+
+	.publications-info{
+	position: relative;
+	width: 100%;
+
+	}
+	.publications-info h1{
+		font-size: 170px;
+	    color: #F3F3F3;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.publications-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.pub-details{
+		margin-bottom: 25px;
+	}
+
+	.clint-info{
+	position: relative;
+	width: 100%;
+	}
+
+	.clint-info h1{
+		font-size: 170px;
+	    color: #262626;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.clint-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.clint-details p{
+		text-align: center;
+	}
+	.clint-details h5{
+		text-align: center !important;
+	}
+	.clint-details {
+	    position: relative;
+	    padding-top: 30px;
+	}
+	.quote {
+	    color: #535251;
+	    font-size: 25px;
+	    position: absolute;
+	    left: -13px;
+	    top: 23px;
+	}
+
+	.faq-info{
+		position: relative;
+		width: 100%;
+	}
+
+	.faq-info h1{
+		font-size: 170px;
+	    color: #262626;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.faq-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.faq-para {
+	    background-color: #e8bf5d;
+	    line-height: 26px;
+	    height: 286px;
+	    padding: 2px 30px;
+	    box-shadow: 0px 0px 28px #e8bf5d;
+	}
+	.contact-info{
+		position: relative;
+		width: 100%;
+	}
+
+	.contact-info h1{
+		font-size: 170px;
+	    color: #F3F3F3;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.contact-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.submit {
+	    text-align: center;
+	    padding-top: 20px;
+	    padding-bottom: 30px;
+	}
+	.social{   
+		 text-align: center;
+    	padding: 10px 0px;
+	}
+}
+
+
+@media screen and (max-width: 767px){
+	
+	h2{
+		font-size: 24px !important;
+	}
+	p{
+		font-size: 15px;
+	    color: #111111;
+	    line-height: 19px;
+	    text-align: left;
+	}
+
+	.hero{
+	background: url('../images/herobanner.png')no-repeat center top;
+    background-size: cover;
+	}
+	.hero-container{
+	    position: relative;
+	    padding: 100px 0px 95px 0px;
+	}
+	.hero-row {
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    top: 185px;
+	}
+	.hero-title h1{
+	    font-size: 30px;
+	    font-weight: 400;
+	    letter-spacing: 1.5px;
+	    color: #ffffff;
+	}
+	.hero-title{
+		border-left: 2px solid #e8bf5d;
+		padding-left:8px;
+		padding-bottom: 3px;
+	}
+	.hero-title h4{
+		font-size: 20px;
+	    color: #ffffff;
+	    letter-spacing: 0.7px;
+	}
+
+	.hero-btn{
+		padding: 10px 0px 0px 0px;
+	}
+	.hero-btn button{
+		border: none;
+	    padding: 9px 30px;
+	    border-radius: 30px;
+	    background-color: #e8bf5d;
+	    cursor: pointer;
+	    transition: 0.5s all ease;
+	 }
+
+	 .hero-btn button:hover{
+	    box-shadow: 0px 0px 29px #987e1d !important;
+	    background-color: #bf8d28 !important;
+	 }
+
+
+	.about-info{
+	position: relative;
+	width: 100%;
+	}
+	.about-info h1{
+		font-size: 170px;
+	    color: #F3F3F3;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.about-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.history-heading {
+    padding: 0 0px;
+	}
+
+
+
+	.practice-info{
+		position: relative;
+		width: 100%;
+	}
+
+	.practice-info h1{
+		font-size: 170px;
+	    color: #262626;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.practice-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.practice-two{
+		text-align: center !important;
+	}
+	.practice-info-two p{
+		text-align: center;
+	}
+
+	.attorney-info{
+		position: relative;
+		width: 100%;
+	}
+
+	.attorney-info h1{
+		font-size: 170px;
+	    color: #F3F3F3;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.attorney-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.attorney-details p,.attorney-details h5{
+		text-align: center;
+	}
+
+	.publications-info{
+	position: relative;
+	width: 100%;
+
+	}
+	.publications-info h1{
+		font-size: 170px;
+	    color: #F3F3F3;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.publications-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.pub-details{
+		margin-bottom: 25px;
+	}
+
+	.clint-info{
+	position: relative;
+	width: 100%;
+	}
+
+	.clint-info h1{
+		font-size: 170px;
+	    color: #262626;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.clint-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.clint-details p{
+		text-align: center;
+	}
+	.clint-details h5{
+		text-align: center !important;
+	}
+	.clint-details {
+	    position: relative;
+	    padding-top: 66px;
+	}
+	.quote {color: #535251;
+    font-size: 25px;
+    position: absolute;
+    left: -18px;
+    top: 59px;
+	}
+	.faq-info{
+		position: relative;
+		width: 100%;
+	}
+
+	.faq-info h1{
+		font-size: 170px;
+	    color: #262626;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.faq-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.faq-para {
+	    background-color: #e8bf5d;
+	    line-height: 26px;
+	    height: 268px;
+	    padding: 40px 30px;
+	    box-shadow: 0px 0px 28px #e8bf5d;
+	}
+	.contact-info{
+		position: relative;
+		width: 100%;
+	}
+
+	.contact-info h1{
+		font-size: 170px;
+	    color: #F3F3F3;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.contact-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+
+	.submit {
+	    text-align: center;
+	    padding-top: 20px;
+	    padding-bottom: 30px;
+	}
+	.social{   
+		 text-align: center;
+    	padding: 10px 0px;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+
+	h2{
+		font-size: 24px !important;
+	}
+	p{
+		font-size: 15px;
+	    color: #111111;
+	    line-height: 19px;
+	    text-align: left;
+	}
+
+	.hero{
+	background: url('../images/herobanner.png')no-repeat center top;
+    background-size: cover;
+	}
+	.hero-container{
+	    position: relative;
+	    padding: 100px 0px 95px 0px;
+	}
+	.hero-row {
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    top: 185px;
+	}
+	.hero-title h1{
+	    font-size: 30px;
+	    font-weight: 400;
+	    letter-spacing: 1.5px;
+	    color: #ffffff;
+	}
+	.hero-title{
+		border-left: 2px solid #e8bf5d;
+		padding-left:8px;
+		padding-bottom: 3px;
+	}
+	.hero-title h4{
+		font-size: 20px;
+	    color: #ffffff;
+	    letter-spacing: 0.7px;
+	}
+
+	.hero-btn{
+		padding: 10px 0px 0px 0px;
+	}
+	.hero-btn button{
+		border: none;
+	    padding: 9px 30px;
+	    border-radius: 30px;
+	    background-color: #e8bf5d;
+	    cursor: pointer;
+	    transition: 0.5s all ease;
+	 }
+
+	 .hero-btn button:hover{
+	    box-shadow: 0px 0px 10px #987e1d !important;
+	    background-color: #bf8d28 !important;
+	 }
+
+
+	.about-info{
+	position: relative;
+	width: 100%;
+	}
+	.about-info h1{
+		font-size: 170px;
+	    color: #F3F3F3;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.about-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.history-heading {
+    padding: 0 0px;
+	}
+
+
+
+	.practice-info{
+		position: relative;
+		width: 100%;
+	}
+
+	.practice-info h1{
+		font-size: 170px;
+	    color: #262626;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.practice-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.practice-two{
+		text-align: center !important;
+	}
+	.practice-info-two p{
+		text-align: center;
+	}
+
+	.attorney-info{
+		position: relative;
+		width: 100%;
+	}
+
+	.attorney-info h1{
+		font-size: 170px;
+	    color: #F3F3F3;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.attorney-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.attorney-details p,.attorney-details h5{
+		text-align: center;
+	}
+
+	.publications-info{
+	position: relative;
+	width: 100%;
+
+	}
+	.publications-info h1{
+		font-size: 170px;
+	    color: #F3F3F3;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.publications-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.pub-details{
+		margin-bottom: 25px;
+	}
+
+	.clint-info{
+	position: relative;
+	width: 100%;
+	}
+
+	.clint-info h1{
+		font-size: 170px;
+	    color: #262626;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.clint-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.clint-details p{
+		text-align: center;
+	}
+	.clint-details h5{
+		text-align: center !important;
+	}
+	.clint-details {
+	    position: relative;
+	    padding-top: 66px;
+	}
+	.quote {color: #535251;
+    font-size: 25px;
+    position: absolute;
+    left: -16px;
+    top: 59px;
+	}
+	.faq-info{
+		position: relative;
+		width: 100%;
+	}
+
+	.faq-info h1{
+		font-size: 170px;
+	    color: #262626;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.faq-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.faq-para {
+	    background-color: #e8bf5d;
+	    line-height: 26px;
+	    height: 268px;
+	    padding: 40px 30px;
+	    box-shadow: 0px 0px 28px #e8bf5d;
+	}
+
+	.google-map iframe{
+		width: 400px;
+		height: 400px;
+		box-shadow: -8px 8px 0px #e8bf5d;
+	}
+	.contact-info{
+		position: relative;
+		width: 100%;
+	}
+
+	.contact-info h1{
+		font-size: 170px;
+	    color: #F3F3F3;
+	    padding-left: 4px;
+	    font-weight: 400;
+	}
+	.contact-position{
+		position: absolute;
+	    top: 29%;
+	    left: 0%;
+	    border-left: 2px solid #e8bf5d;
+	    padding-left: 26px;
+	}
+	.submit {
+	    text-align: center;
+	    padding-top: 20px;
+	    padding-bottom: 30px;
+	}
+	.sub:hover{
+		 box-shadow: 0px 0px 10px #987e1d !important;
+		 background-color: #bf8d28 !important;
+	    
+	}
+	.social{   
+		 text-align: center;
+    	padding: 10px 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
